@@ -1,0 +1,10 @@
+name = "leancert"
+defaultTargets = ["Cert"]
+
+[[lean_lib]]
+name = "Cert"
+precompileModules = true
+
+[[require]]
+name = "m23"
+path = "../m23"
